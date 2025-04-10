@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universitaria de Colombia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <nav class="bg-blue-900 text-white p-4 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="text-2xl font-bold uppercase">Universitaria de Colombia</div>
+
+      <!-- Menú Escritorio -->
+      <ul class="hidden md:flex gap-6 text-sm font-semibold uppercase">
+        <li><a href="#" class="hover:text-yellow-400 transition">Inscríbete</a></li>
+
+        <li class="group relative">
+          <a href="#" class="hover:text-yellow-400 transition">Oferta Académica</a>
+          <ul class="absolute hidden group-hover:block bg-blue-800 mt-2 py-2 w-48">
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Técnicos</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Profesionales</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Postgrados</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#" class="hover:text-yellow-400 transition">Quiénes Somos</a></li>
+
+        <li class="group relative">
+          <a href="#" class="hover:text-yellow-400 transition">Soy Aspirante</a>
+          <ul class="absolute hidden group-hover:block bg-blue-800 mt-2 py-2 w-56">
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Entrevistas</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Inducciones</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Financiación</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#" class="hover:text-yellow-400 transition">PQR</a></li>
+
+        <li class="group relative">
+          <a href="#" class="hover:text-yellow-400 transition">Soy Estudiante</a>
+          <ul class="absolute hidden group-hover:block bg-blue-800 mt-2 py-2 w-64">
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Aula Virtual</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Portal de Notas</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Opciones de Pago</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Saber Pro</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Club de Robótica</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Requisitos para Prácticas</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Bienestar Universitario</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Entérate</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Servicios Universitarios</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Convenios</a></li>
+          </ul>
+        </li>
+
+        <li class="group relative">
+          <a href="#" class="hover:text-yellow-400 transition">Investigación</a>
+          <ul class="absolute hidden group-hover:block bg-blue-800 mt-2 py-2 w-48">
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Observatorio</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Foro</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Revista</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700">Citas</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <!-- SLIDER -->
+    <section class="relative overflow-hidden">
+      <div class="flex animate-[slide_20s_linear_infinite] w-[200%]">
+        <img
+          src="https://via.placeholder.com/1920x500?text=Imagen+1"
+          class="w-1/2 object-cover"
+          alt="Imagen 1"
+        />
+        <img
+          src="https://via.placeholder.com/1920x500?text=Imagen+2"
+          class="w-1/2 object-cover"
+          alt="Imagen 2"
+        />
+        <img
+          src="https://via.placeholder.com/1920x500?text=Imagen+3"
+          class="w-1/2 object-cover"
+          alt="Imagen 3"
+        />
+        <img
+          src="https://via.placeholder.com/1920x500?text=Imagen+1"
+          class="w-1/2 object-cover"
+          alt="Imagen 1 Repetida"
+        />
+        <img
+          src="https://via.placeholder.com/1920x500?text=Imagen+2"
+          class="w-1/2 object-cover"
+          alt="Imagen 2 Repetida"
+        />
+        <img
+          src="https://via.placeholder.com/1920x500?text=Imagen+3"
+          class="w-1/2 object-cover"
+          alt="Imagen 3 Repetida"
+        />
+      </div>
+    </section>
+
+    <style>
+      @keyframes slide {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+    </style>
+
+<!-- Accesos Directos -->
+<section class="py-10 text-center">
+    <h2 class="text-2xl font-bold mb-6">ACCESOS DIRECTOS</h2>
+    <div class="flex justify-center gap-10 flex-wrap">
+        <div class="flex flex-col items-center">
+            <img src="icono-inscribete.png" class="w-12 h-12 mb-2" alt="Inscribete">
+            <p>INSCRÍBETE A LA U</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img src="icono-aula.png" class="w-12 h-12 mb-2" alt="Aula Virtual">
+            <p>AULA VIRTUAL</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img src="icono-notas.png" class="w-12 h-12 mb-2" alt="Notas">
+            <p>PORTAL DE NOTAS</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img src="icono-pagos.png" class="w-12 h-12 mb-2" alt="Pagos">
+            <p>PAGOS</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img src="icono-solicitudes.png" class="w-12 h-12 mb-2" alt="Solicitudes">
+            <p>SOLICITUDES</p>
+        </div>
+    </div>
+</section>
+
+<!-- Video informativo -->
+<section class="text-center py-10">
+    <h2 class="text-xl font-bold text-blue-900 mb-4">MATRICÚLATE AHORA</h2>
+    <p class="mb-4 font-semibold">¡No pierdas tiempo, matricúlate de manera fácil, rápida y desde la comodidad de tu hogar!</p>
+    <video controls class="mx-auto w-80">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+    <button class="mt-4 bg-blue-800 text-white px-6 py-2 rounded-full hover:bg-blue-600">Más Información</button>
+</section>
+
+<!-- Sedes -->
+<section class="bg-blue-900 text-white py-10">
+    <h2 class="text-2xl font-bold text-center mb-6">Sedes de Universitaria de Colombia</h2>
+    <div class="flex justify-center flex-wrap gap-8">
+        <div class="text-center">
+            <img src="sede1.jpg" class="w-32 h-40 object-cover rounded-lg mb-2">
+            <p>Sede 1</p>
+        </div>
+        <div class="text-center">
+            <img src="sede2.jpg" class="w-32 h-40 object-cover rounded-lg mb-2">
+            <p>Sede 2</p>
+        </div>
+        <div class="text-center">
+            <img src="sede3.jpg" class="w-32 h-40 object-cover rounded-lg mb-2">
+            <p>Sede 3</p>
+        </div>
+        <div class="text-center">
+            <img src="sede4.jpg" class="w-32 h-40 object-cover rounded-lg mb-2">
+            <p>Sede 4</p>
+        </div>
+        <div class="text-center">
+            <img src="sede5.jpg" class="w-32 h-40 object-cover rounded-lg mb-2">
+            <p>Sede 5</p>
+        </div>
+    </div>
+</section>
+
+<!-- Noticias del Mundo -->
+<section class="py-10 text-center">
+    <h2 class="text-xl font-bold text-blue-900 mb-6">NOTICIAS DEL MUNDO</h2>
+    <div class="flex justify-center gap-10 flex-wrap">
+        <div>
+            <img src="noticia1.jpg" class="w-40 h-28 object-cover mb-2">
+            <p>La Reforma a la Salud</p>
+        </div>
+        <div>
+            <img src="noticia2.jpg" class="w-40 h-28 object-cover mb-2">
+            <p>Hechos Históricos de la Guerra</p>
+        </div>
+        <div>
+            <img src="noticia3.jpg" class="w-40 h-28 object-cover mb-2">
+            <p>Crisis en Gaza</p>
+        </div>
+    </div>
+</section>
+
+    <!-- OFERTA ACADÉMICA -->
+    <section class="py-16 max-w-7xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10 uppercase">
+        Oferta Académica
+      </h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+          <h3 class="font-bold mb-2 text-xl">Técnicos</h3>
+          <p>Programas Técnicos de alta demanda laboral.</p>
+        </div>
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+          <h3 class="font-bold mb-2 text-xl">Profesionales</h3>
+          <p>Carreras profesionales en diferentes áreas.</p>
+        </div>
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+          <h3 class="font-bold mb-2 text-xl">Postgrados</h3>
+          <p>Especializaciones y Maestrías de alta calidad.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="bg-blue-900 text-white py-16">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl font-bold uppercase mb-6">Contáctanos</h2>
+        <form class="grid gap-4">
+          <input
+            type="text"
+            placeholder="Nombre"
+            class="p-3 rounded text-gray-800"
+          />
+          <input
+            type="email"
+            placeholder="Correo"
+            class="p-3 rounded text-gray-800"
+          />
+          <textarea
+            placeholder="Mensaje"
+            class="p-3 rounded text-gray-800"
+          ></textarea>
+          <button
+            class="bg-yellow-400 text-blue-900 py-2 rounded font-bold uppercase"
+          >
+            Enviar
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-blue-950 text-gray-300 py-6 text-center">
+      <p>
+        &copy; 2025 Universitaria de Colombia. Todos los derechos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
+
